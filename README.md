@@ -24,24 +24,24 @@ DOCUMENTATION_URL="https://help.ubuntu.com/22.04/ubuntu-help/index.html"
 Here are a couple sample runs:
 
 ```
-user:/TCP-Test$ tail -2 os-release 
+user:/tech-test$ tail -2 os-release 
 BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
 UBUNTU_CODENAME=jammy
 
-user:/TCP-Test$ ./script 
-user:/TCP-Test$ tail -3 os-release 
+user:/tech-test$ ./script 
+user:/tech-test$ tail -3 os-release 
 BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
 UBUNTU_CODENAME=jammy
 DOCUMENTATION_URL="https://help.ubuntu.com/lts/ubuntu-help/index.html"
 
-user:/TCP-Test$  git checkout os-release # reset os-release, removing appended line
+user:/tech-test$  git checkout os-release # reset os-release, removing appended line
 Updated 1 path from the index
-user:/TCP-Test$ tail -2 os-release 
+user:/tech-test$ tail -2 os-release 
 BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
 UBUNTU_CODENAME=jammy
 
-user:/TCP-Test$ ./script https://help.ubuntu.com/22.04/ubuntu-help/index.html
-user:/TCP-Test$ tail -3 os-release 
+user:/tech-test$ ./script https://help.ubuntu.com/22.04/ubuntu-help/index.html
+user:/tech-test$ tail -3 os-release 
 BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
 UBUNTU_CODENAME=jammy
 DOCUMENTATION_URL="https://help.ubuntu.com/22.04/ubuntu-help/index.html"
