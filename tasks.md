@@ -1,4 +1,4 @@
-# Build a Game with CreateJS
+# Build a game with CreateJS
 
 # Module 01 - Main game loop
 
